@@ -4,7 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "primary": "rgba(255, 255, 255, 0.87)",
+        "rich": "#001011",
+        "tiffany": "#75dedd",
+        "munse": "#4f8991",
+        "prussian": "#17293a",
+        "midnight": "#004346",
+        "mint": "#07bc8a"
       },
     },
   },
