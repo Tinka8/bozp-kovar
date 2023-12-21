@@ -11,7 +11,7 @@ module.exports = {
         "midnight": "#004346",
         "mint": "#07bc8a",
         "verdigris": "#5bc0be",
-        "gray": "#f1f6f9"
+        "light-gray": "#f1f6f9"
       },
     },
   },
