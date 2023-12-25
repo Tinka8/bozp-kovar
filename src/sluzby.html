@@ -1,19 +1,27 @@
 <!doctype html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400,600,700&family=Inter:wght@400,500&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/fonts/style.css" />
         <link rel="stylesheet" href="/style.css" />
         <title>Služby</title>
     </head>
 
     <body>
         <div class="wrapper overflow-hidden">
-            <header 
-                class="z-10 mx-auto flex max-w-screen-xl flex-grow-0 items-center justify-between py-6 font-bold text-rich"
+            <header
+                class="z-10 mx-auto max-w-screen-xl flex-grow-0 items-center justify-between py-6 font-bold text-rich lg:flex"
             >
-                <div class="text-3xl font-bold px-4 py-4">
+                <div
+                    class="font-headline px-4 py-4 text-3xl font-bold tracking-tight"
+                >
                     <a href="/">
                         <h1>BOZP<span class="text-mint">KOVÁŘ</span></h1>
                     </a>
@@ -21,163 +29,261 @@
                 <nav class="flex-grow-0">
                     <ol role="menu" class="flex space-x-16 px-4 py-4">
                         <li role="presentation">
-                            <a 
-                                role="menuitem" 
-                                href="/" 
-                                class="text-black"
+                            <a
+                                role="menuitem"
+                                href="/"
+                                class="text-black transition-colors hover:text-munse"
                                 >Úvod</a
                             >
                         </li>
                         <li role="presentation">
-                            <a 
-                                role="menuitem" 
-                                href="/sluzby.html" 
-                                class="text-mint"
+                            <a
+                                role="menuitem"
+                                href="/sluzby.html"
+                                class="text-mint transition-colors hover:text-munse"
                                 >Služby</a
                             >
                         </li>
                         <li role="presentation">
-                            <a 
-                                role="menuitem" 
-                                href="/kontakt.html" 
-                                class="text-black"
+                            <a
+                                role="menuitem"
+                                href="/kontakt.html"
+                                class="text-black transition-colors hover:text-munse"
                                 >Kontakt</a
                             >
                         </li>
                     </ol>
                 </nav>
             </header>
-            
-            <main 
-                class="text-prussian pt-[80px] pb-[100px]" 
+
+            <main
+                class="px-4 pb-[100px] pt-[20px] text-prussian lg:px-0 lg:pt-[150px]"
                 role="document"
             >
-                <div class="mx-auto max-w-screen-xl space-y-8 px-24">
-                    <div class="max-w-[120px] border-t-[10px] border-verdigris"></div>
-                    <h1 class="text-prussian text-6xl font-bold">
+                <div class="mx-auto max-w-screen-xl space-y-8 lg:px-24">
+                    <div
+                        class="w-[100px] border-t-[10px] border-verdigris"
+                    ></div>
+                    <h1
+                        class="font-headline text-2xl font-bold tracking-tighter text-prussian lg:text-6xl"
+                    >
                         Služby
                     </h1>
                 </div>
-                
+
                 <div class="mx-auto max-w-screen-xl space-y-32">
-                    <div class="grid grid-cols-3 font-semibold gap-4 pt-[100px]">
-                        <div class="grid bg-light-gray rounded-xl py-6 px-10">
-                            <h2>Prověrka BOZP</h2>
+                    <div
+                        class="font-headline grid grid-cols-1 gap-4 pt-[100px] lg:grid-cols-3"
+                    >
+                        <div
+                            class="cursor-pointer space-y-3 rounded-xl bg-light-gray px-10 py-6 hover:shadow"
+                        >
+                            <h2 class="font-semibold">Prověrka BOZP</h2>
                             <p>
-                                Hloubková analýza Vašich potřeb a stávajících postupů
-                                v oblasti bezpečnosti práce.
+                                Hloubková analýza Vašich potřeb a stávajících
+                                postupů v oblasti bezpečnosti práce.
                             </p>
-                            <span class="justify-self-end">
-                                <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M8.22727 14.5256L6.7642 13.0767L11.1463 8.6946H0.5V6.57812H11.1463L6.7642 2.20312L8.22727 0.747159L15.1165 7.63636L8.22727 14.5256Z"
-                                        fill="#17293a" />
-                                </svg>
-                            </span>
+                            <div class="flex justify-end">
+                                <a href="#">
+                                    <svg
+                                        width="16"
+                                        height="15"
+                                        viewBox="0 0 16 15"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M8.22727 14.5256L6.7642 13.0767L11.1463 8.6946H0.5V6.57812H11.1463L6.7642 2.20312L8.22727 0.747159L15.1165 7.63636L8.22727 14.5256Z"
+                                            fill="#17293a"
+                                        />
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
-                
-                        <div class="grid bg-light-gray rounded-xl py-6 px-10">
-                            <h2>Audit BOZP a PO</h2>
+
+                        <div
+                            class="cursor-pointer space-y-3 rounded-xl bg-light-gray px-10 py-6 hover:shadow"
+                        >
+                            <h2 class="font-semibold">Audit BOZP a PO</h2>
                             <p>
-                                Audit pracoviště a dokumentace požární ochrany a BOZP.
-                                Příprava na kontrolu na pracovištích.
+                                Audit pracoviště a dokumentace požární ochrany a
+                                BOZP. Příprava na kontrolu na pracovištích.
                             </p>
-                            <span class="justify-self-end">
-                                <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M8.22727 14.5256L6.7642 13.0767L11.1463 8.6946H0.5V6.57812H11.1463L6.7642 2.20312L8.22727 0.747159L15.1165 7.63636L8.22727 14.5256Z"
-                                        fill="#17293a" />
-                                </svg>
-                            </span>
+                            <div class="flex justify-end">
+                                <a href="#">
+                                    <svg
+                                        width="16"
+                                        height="15"
+                                        viewBox="0 0 16 15"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M8.22727 14.5256L6.7642 13.0767L11.1463 8.6946H0.5V6.57812H11.1463L6.7642 2.20312L8.22727 0.747159L15.1165 7.63636L8.22727 14.5256Z"
+                                            fill="#17293a"
+                                        />
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
-                
-                        <div class="grid bg-light-gray rounded-xl py-6 px-10">
-                            <h2>Dokumentace BOZP a PO</h2>
+
+                        <div
+                            class="cursor-pointer space-y-3 rounded-xl bg-light-gray px-10 py-6 hover:shadow"
+                        >
+                            <h2 class="font-semibold">Dokumentace BOZP a PO</h2>
                             <p>
-                                Aktuální dokumentace dle platných zákonů
-                                na míru Vašeho provozu.
+                                Aktuální dokumentace dle platných zákonů na míru
+                                Vašeho provozu.
                             </p>
-                            <span class="justify-self-end">
-                                <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M8.22727 14.5256L6.7642 13.0767L11.1463 8.6946H0.5V6.57812H11.1463L6.7642 2.20312L8.22727 0.747159L15.1165 7.63636L8.22727 14.5256Z"
-                                        fill="#17293a" />
-                                </svg>
-                            </span>
+                            <div class="flex justify-end">
+                                <a href="#">
+                                    <svg
+                                        width="16"
+                                        height="15"
+                                        viewBox="0 0 16 15"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M8.22727 14.5256L6.7642 13.0767L11.1463 8.6946H0.5V6.57812H11.1463L6.7642 2.20312L8.22727 0.747159L15.1165 7.63636L8.22727 14.5256Z"
+                                            fill="#17293a"
+                                        />
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
-                
-                        <div class="grid bg-light-gray rounded-xl p-6 space-y-3">
-                            <h2>Preventivni požární prohlídka</h2>
+
+                        <div
+                            class="cursor-pointer space-y-3 rounded-xl bg-light-gray p-6 hover:shadow"
+                        >
+                            <h2 class="font-semibold">
+                                Preventivni požární prohlídka
+                            </h2>
                             <p>
-                                V rámci prohlídky identifikujeme problémy
-                                a nastavíme vhodná opatření pro požární bezpečnost.
+                                V rámci prohlídky identifikujeme problémy a
+                                nastavíme vhodná opatření pro požární
+                                bezpečnost.
                             </p>
-                            <span class="justify-self-end">
-                                <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M8.22727 14.5256L6.7642 13.0767L11.1463 8.6946H0.5V6.57812H11.1463L6.7642 2.20312L8.22727 0.747159L15.1165 7.63636L8.22727 14.5256Z"
-                                        fill="#17293a" />
-                                </svg>
-                            </span>
+                            <div class="flex justify-end">
+                                <a href="#">
+                                    <svg
+                                        width="16"
+                                        height="15"
+                                        viewBox="0 0 16 15"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M8.22727 14.5256L6.7642 13.0767L11.1463 8.6946H0.5V6.57812H11.1463L6.7642 2.20312L8.22727 0.747159L15.1165 7.63636L8.22727 14.5256Z"
+                                            fill="#17293a"
+                                        />
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
-                
-                        <div class="grid bg-light-gray rounded-xl p-6 space-y-3">
-                            <h2>Preventivni požární prohlídka</h2>
+
+                        <div
+                            class="cursor-pointer space-y-3 rounded-xl bg-light-gray p-6 hover:shadow"
+                        >
+                            <h2 class="font-semibold">Školení BOZP a PO</h2>
                             <p>
-                                V rámci prohlídky identifikujeme problémy
-                                a nastavíme vhodná opatření pro požární bezpečnost.
+                                Školení zaměstnanců v oblasti hygienické, proti
+                                epidemické, požární, technické, stavební a
+                                dopravní.
                             </p>
-                            <span class="justify-self-end">
-                                <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M8.22727 14.5256L6.7642 13.0767L11.1463 8.6946H0.5V6.57812H11.1463L6.7642 2.20312L8.22727 0.747159L15.1165 7.63636L8.22727 14.5256Z"
-                                        fill="#17293a" />
-                                </svg>
-                            </span>
+                            <div class="flex justify-end">
+                                <a href="#">
+                                    <svg
+                                        width="16"
+                                        height="15"
+                                        viewBox="0 0 16 15"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M8.22727 14.5256L6.7642 13.0767L11.1463 8.6946H0.5V6.57812H11.1463L6.7642 2.20312L8.22727 0.747159L15.1165 7.63636L8.22727 14.5256Z"
+                                            fill="#17293a"
+                                        />
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
-                
-                        <div class="grid bg-light-gray rounded-xl p-6 space-y-3">
-                            <h2>Prověrka BOZP</h2>
+
+                        <div
+                            class="cursor-pointer space-y-3 rounded-xl bg-light-gray p-6 hover:shadow"
+                        >
+                            <h2 class="font-semibold">
+                                Hodnocení rizik a procesy
+                            </h2>
                             <p>
-                                Hloubková analýza Vašich potřeb a stávajících postupů v oblasti bezpečnosti práce.
+                                Nastavení systému pracovních úrazů a evakuace v
+                                případě požáru
                             </p>
-                            <span class="justify-self-end">
-                                <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M8.22727 14.5256L6.7642 13.0767L11.1463 8.6946H0.5V6.57812H11.1463L6.7642 2.20312L8.22727 0.747159L15.1165 7.63636L8.22727 14.5256Z"
-                                        fill="#17293a" />
-                                </svg>
-                            </span>
+                            <div class="flex justify-end">
+                                <a href="#">
+                                    <svg
+                                        width="16"
+                                        height="15"
+                                        viewBox="0 0 16 15"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M8.22727 14.5256L6.7642 13.0767L11.1463 8.6946H0.5V6.57812H11.1463L6.7642 2.20312L8.22727 0.747159L15.1165 7.63636L8.22727 14.5256Z"
+                                            fill="#17293a"
+                                        />
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                
-                    <div class="text-center space-y-8">
-                        <h2 class="font-bold text-2xl">
+
+                    <div class="space-y-8 text-center">
+                        <h2 class="text-2xl font-bold">
                             Máte otázku nebo Vás zaujala nabídka našich služeb?
                         </h2>
-                
+
                         <button
-                            class="bg-white border border-prussian mx-auto flex text-sm px-3 py-2 space-x-3 items-center rounded-2xl">
-                            <span class="text-prussian pl-3">
-                                Naše služby
-                            </span>
+                            class="mx-auto flex items-center space-x-3 rounded-full border border-prussian px-10 py-3 text-sm font-medium text-prussian transition-colors hover:border-mint hover:text-mint"
+                        >
+                            <span class="pl-3"> Kontaktujte nás </span>
                             <span>
-                                <svg width="20" height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M15.25 1.25L19 5M19 5L15.25 8.75M19 5H1" stroke="#17293a" stroke-width="1.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
+                                <svg
+                                    width="20"
+                                    height="10"
+                                    viewBox="0 0 20 10"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M15.25 1.25L19 5M19 5L15.25 8.75M19 5H1"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
                                 </svg>
                             </span>
                         </button>
                     </div>
                 </div>
-                
-            </main>  
+            </main>
 
             <footer>
-                <div class="bg-light-gray py-[40px]">
-                    <div class="mx-auto grid max-w-screen-xl grid-cols-3">
+                <div
+                    class="bg-light-gray px-4 pt-[40px] text-xs text-prussian lg:px-0"
+                >
+                    <div
+                        class="mx-auto grid max-w-screen-xl grid-cols-1 gap-10 lg:grid-cols-3 lg:gap-0"
+                    >
                         <div>
-                            <h1 class="pb-4 text-3xl font-bold">BOZP<span class="text-munse">KOVÁŘ</span></h1>
+                            <header class="h-[52px]">
+                                <h1
+                                    class="font-headline pb-4 text-3xl font-bold tracking-tight"
+                                >
+                                    BOZP<span class="text-munse">KOVÁŘ</span>
+                                </h1>
+                            </header>
                             <ol class="space-y-3">
                                 <li>BOZP Kovář</li>
                                 <li>Bezpečnost práce a požární ochrana</li>
@@ -185,22 +291,52 @@
                             </ol>
                         </div>
                         <div>
-                            <h2 class="uppercase font-bold">Informace</h2>
-                            <div class="py-3">
-                                <div class="max-w-[300px] border-b-2 border-prussian"></div>
-                            </div>
+                            <header class="h-[52px]">
+                                <h2 class="font-bold uppercase">Informace</h2>
+                                <div class="relative my-3">
+                                    <div
+                                        class="max-w-[300px] border-b border-prussian opacity-40"
+                                    ></div>
+                                    <div
+                                        class="absolute inset-x-0 top-0 max-w-[60px] border-b border-prussian"
+                                    ></div>
+                                </div>
+                            </header>
                             <ol class="space-y-3">
-                                <li>Informace o zpracování osobních údajů</li>
-                                <li>Zásady zpracování souborů cookies</li>
-                                <li>Provozní řád</li>
-                                <li>Technická podpora</li>
+                                <li>
+                                    <a href="#" class="hover:underline">
+                                        Informace o zpracování osobních údajů
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover:underline">
+                                        Zásady zpracování souborů cookies
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover:underline">
+                                        Provozní řád
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover:underline">
+                                        Technická podpora
+                                    </a>
+                                </li>
                             </ol>
                         </div>
                         <div>
-                            <h2 class="uppercase font-bold">Kontakt</h2>
-                            <div class="py-3">
-                                <div class="max-w-[300px] border-b-2 border-prussian"></div>
-                            </div>
+                            <header class="h-[52px]">
+                                <h2 class="font-bold uppercase">Kontakt</h2>
+                                <div class="relative my-3">
+                                    <div
+                                        class="max-w-[300px] border-b border-prussian opacity-40"
+                                    ></div>
+                                    <div
+                                        class="absolute inset-x-0 top-0 max-w-[60px] border-b border-prussian"
+                                    ></div>
+                                </div>
+                            </header>
                             <ol class="space-y-3">
                                 <li>E-mail: info@bozpkovar.cz</li>
                                 <li>Telefon: +420 111 222 333</li>
@@ -209,9 +345,13 @@
                             </ol>
                         </div>
                     </div>
-                    <div class="mx-auto max-w-screen-xl space-y-2 pt-8">
-                        <hr class="w-full border-t border-prussian" />
-                        <div class="text-sm">© 2023 BOZP Kovář</div>
+                    <div class="mx-auto mt-8 max-w-screen-xl">
+                        <hr
+                            class="w-full border-t border-prussian opacity-40"
+                        />
+                        <div class="flex h-[60px] items-center">
+                            <span>© 2023 BOZP Kovář</span>
+                        </div>
                     </div>
                 </div>
             </footer>

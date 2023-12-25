@@ -12,7 +12,12 @@ module.exports = {
         "mint": "#07bc8a",
         "verdigris": "#5bc0be",
         "light-gray": "#f1f6f9"
-      },
+          },
+        fontFamily: {
+            mono: ["Menlo", "monospace"],
+            sans: ["Inter", "sans-serif"],
+            headline: ["Familjen Grotesk", "sans-serif"],
+        }
     },
   },
   plugins: [],

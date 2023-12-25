@@ -1,19 +1,27 @@
 <!doctype html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400,600,700&family=Inter:wght@400,500&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/fonts/style.css" />
         <link rel="stylesheet" href="/style.css" />
         <title>Kontakt</title>
     </head>
 
     <body>
         <div class="wrapper overflow-hidden">
-            <header 
-                class="z-10 mx-auto flex max-w-screen-xl flex-grow-0 items-center justify-between py-6 font-bold text-rich"
+            <header
+                class="z-10 mx-auto max-w-screen-xl flex-grow-0 items-center justify-between py-6 font-bold text-rich lg:flex"
             >
-                <div class="text-3xl font-bold px-4 py-4">
+                <div
+                    class="font-headline px-4 py-4 text-3xl font-bold tracking-tight"
+                >
                     <a href="/">
                         <h1>BOZP<span class="text-mint">KOVÁŘ</span></h1>
                     </a>
@@ -21,26 +29,26 @@
                 <nav class="flex-grow-0">
                     <ol role="menu" class="flex space-x-16 px-4 py-4">
                         <li role="presentation">
-                            <a 
-                                role="menuitem" 
-                                href="/" 
-                                class="text-black"
+                            <a
+                                role="menuitem"
+                                href="/"
+                                class="text-black transition-colors hover:text-munse"
                                 >Úvod</a
                             >
                         </li>
                         <li role="presentation">
-                            <a 
-                                role="menuitem" 
-                                href="/sluzby.html" 
-                                class="text-black"
+                            <a
+                                role="menuitem"
+                                href="/sluzby.html"
+                                class="text-black transition-colors hover:text-munse"
                                 >Služby</a
                             >
                         </li>
                         <li role="presentation">
-                            <a 
-                                role="menuitem" 
-                                href="/kontakt.html" 
-                                class="text-mint"
+                            <a
+                                role="menuitem"
+                                href="/kontakt.html"
+                                class="text-mint transition-colors hover:text-munse"
                                 >Kontakt</a
                             >
                         </li>
@@ -49,39 +57,70 @@
             </header>
 
             <main
-                class="text-prussian pt-[80px] pb-[100px]" 
+                class="px-4 pb-[100px] pt-[20px] pt-[80px] text-prussian lg:px-0 lg:pt-[150px]"
                 role="document"
             >
-                <div class="mx-auto max-w-screen-xl px-24">
-                    <div class="space-y-4">
-                        <div class="max-w-[120px] border-t-[10px] border-verdigris"></div>
-                        <h1 class="text-prussian text-6xl font-bold pb-[100px]">
+                <div class="mx-auto max-w-screen-xl lg:px-24">
+                    <div class="space-y-8">
+                        <div
+                            class="w-[100px] border-t-[10px] border-verdigris"
+                        ></div>
+                        <h1
+                            class="font-headline pb-[100px] text-2xl font-bold tracking-tighter text-prussian lg:text-6xl"
+                        >
                             Kontakt
                         </h1>
                     </div>
                     <div class="space-y-8">
                         <div>
-                            <h2 class="uppercase text-mint">e-mail</h2>
-                            <div class="text-6xl font-bold">info@bozpkovar.cz</div>
+                            <h2 class="font-mono uppercase text-mint">
+                                e-mail
+                            </h2>
+                            <div
+                                class="font-headline text-lg font-bold tracking-tighter lg:text-6xl"
+                            >
+                                info@bozpkovar.cz
+                            </div>
                         </div>
                         <div>
-                            <h2 class="uppercase text-mint">telefon</h2>
-                            <div class="text-6xl font-bold">601 121 550</div>
+                            <h2 class="font-mono uppercase text-mint">
+                                telefon
+                            </h2>
+                            <div
+                                class="font-headline text-lg font-bold tracking-tighter lg:text-6xl"
+                            >
+                                601 121 550
+                            </div>
                         </div>
                         <div>
-                            <h2 class="uppercase text-mint">datová schránka</h2>
-                            <div class="text-6xl font-bold">x9r5bnp</div>
+                            <h2 class="font-mono uppercase text-mint">
+                                datová schránka
+                            </h2>
+                            <div
+                                class="font-headline text-lg font-bold tracking-tighter lg:text-6xl"
+                            >
+                                x9r5bnp
+                            </div>
                         </div>
-                    
                     </div>
-                </div>          
+                </div>
             </main>
 
             <footer>
-                <div class="bg-light-gray py-[40px]">
-                    <div class="mx-auto grid max-w-screen-xl grid-cols-3">
+                <div
+                    class="bg-light-gray px-4 pt-[40px] text-xs text-prussian lg:px-0"
+                >
+                    <div
+                        class="mx-auto grid max-w-screen-xl grid-cols-1 gap-10 lg:grid-cols-3 lg:gap-0"
+                    >
                         <div>
-                            <h1 class="pb-4 text-3xl font-bold">BOZP<span class="text-munse">KOVÁŘ</span></h1>
+                            <header class="h-[52px]">
+                                <h1
+                                    class="font-headline pb-4 text-3xl font-bold tracking-tight"
+                                >
+                                    BOZP<span class="text-munse">KOVÁŘ</span>
+                                </h1>
+                            </header>
                             <ol class="space-y-3">
                                 <li>BOZP Kovář</li>
                                 <li>Bezpečnost práce a požární ochrana</li>
@@ -89,22 +128,52 @@
                             </ol>
                         </div>
                         <div>
-                            <h2 class="uppercase font-bold">Informace</h2>
-                            <div class="py-3">
-                                <div class="max-w-[300px] border-b-2 border-prussian"></div>
-                            </div>
+                            <header class="h-[52px]">
+                                <h2 class="font-bold uppercase">Informace</h2>
+                                <div class="relative my-3">
+                                    <div
+                                        class="max-w-[300px] border-b border-prussian opacity-40"
+                                    ></div>
+                                    <div
+                                        class="absolute inset-x-0 top-0 max-w-[60px] border-b border-prussian"
+                                    ></div>
+                                </div>
+                            </header>
                             <ol class="space-y-3">
-                                <li>Informace o zpracování osobních údajů</li>
-                                <li>Zásady zpracování souborů cookies</li>
-                                <li>Provozní řád</li>
-                                <li>Technická podpora</li>
+                                <li>
+                                    <a href="#" class="hover:underline">
+                                        Informace o zpracování osobních údajů
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover:underline">
+                                        Zásady zpracování souborů cookies
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover:underline">
+                                        Provozní řád
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover:underline">
+                                        Technická podpora
+                                    </a>
+                                </li>
                             </ol>
                         </div>
                         <div>
-                            <h2 class="uppercase font-bold">Kontakt</h2>
-                            <div class="py-3">
-                                <div class="max-w-[300px] border-b-2 border-prussian"></div>
-                            </div>
+                            <header class="h-[52px]">
+                                <h2 class="font-bold uppercase">Kontakt</h2>
+                                <div class="relative my-3">
+                                    <div
+                                        class="max-w-[300px] border-b border-prussian opacity-40"
+                                    ></div>
+                                    <div
+                                        class="absolute inset-x-0 top-0 max-w-[60px] border-b border-prussian"
+                                    ></div>
+                                </div>
+                            </header>
                             <ol class="space-y-3">
                                 <li>E-mail: info@bozpkovar.cz</li>
                                 <li>Telefon: +420 111 222 333</li>
@@ -113,9 +182,13 @@
                             </ol>
                         </div>
                     </div>
-                    <div class="mx-auto max-w-screen-xl space-y-2 pt-8">
-                        <hr class="w-full border-t border-prussian" />
-                        <div class="text-sm">© 2023 BOZP Kovář</div>
+                    <div class="mx-auto mt-8 max-w-screen-xl">
+                        <hr
+                            class="w-full border-t border-prussian opacity-40"
+                        />
+                        <div class="flex h-[60px] items-center">
+                            <span>© 2023 BOZP Kovář</span>
+                        </div>
                     </div>
                 </div>
             </footer>
